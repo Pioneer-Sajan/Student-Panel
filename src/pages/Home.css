@@ -1,0 +1,40 @@
+.welcome{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.welcomemsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    /* align-items: center; */
+    line-height: 1.8;
+}
+.welcomemsg p{
+    font-size: 15px;
+    font-family: Helvetica;
+}
+.welcomemsg h1{
+   font-size: 30px;
+   font-family: Helvetica;
+}
+.welcometrack{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.welcometrack .icon{
+    margin: 0 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcometrack p{
+    font-size: 15px;
+    margin-top: 13px;
+}
